@@ -1264,6 +1264,10 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>*</members>
+        <name>Report</name>
+    </types>
+    <types>
         <members>AccountContactMultiRoles</members>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
