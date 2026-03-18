@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoGroup__c</fullName>
+    <label>AutoGroup</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AutoNation, Inc.</fullName>
+                <default>false</default>
+                <label>AutoNation, Inc.</label>
+            </value>
+            <value>
+                <fullName>Berkshire Hathaway, Inc.</fullName>
+                <default>false</default>
+                <label>Berkshire Hathaway, Inc.</label>
+            </value>
+            <value>
+                <fullName>Group 1 Automotive, Inc.</fullName>
+                <default>false</default>
+                <label>Group 1 Automotive, Inc.</label>
+            </value>
+            <value>
+                <fullName>Lithia Motors, Inc.</fullName>
+                <default>false</default>
+                <label>Lithia Motors, Inc.</label>
+            </value>
+            <value>
+                <fullName>Penske Automotive Group, Inc.</fullName>
+                <default>false</default>
+                <label>Penske Automotive Group, Inc.</label>
+            </value>
+            <value>
+                <fullName>Sonic Automotive, Inc.</fullName>
+                <default>false</default>
+                <label>Sonic Automotive, Inc.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

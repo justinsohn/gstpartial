@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <label>Contact Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Dealer_Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ASSISTANT COLLISION CENTER MGR</fullName>
+                <default>false</default>
+                <label>ASSISTANT COLLISION CENTER MGR</label>
+            </value>
+            <value>
+                <fullName>ASSISTANT PARTS MANAGER</fullName>
+                <default>false</default>
+                <label>ASSISTANT PARTS MANAGER</label>
+            </value>
+            <value>
+                <fullName>ASSISTANT SERVICE MANAGER</fullName>
+                <default>false</default>
+                <label>ASSISTANT SERVICE MANAGER</label>
+            </value>
+            <value>
+                <fullName>COLLISION CTR OFFICE MANAGER</fullName>
+                <default>false</default>
+                <label>COLLISION CTR OFFICE MANAGER</label>
+            </value>
+            <value>
+                <fullName>CONTROLLER</fullName>
+                <default>false</default>
+                <label>CONTROLLER</label>
+            </value>
+            <value>
+                <fullName>CREDIT MANAGER</fullName>
+                <default>false</default>
+                <label>CREDIT MANAGER</label>
+            </value>
+            <value>
+                <fullName>CUSTOMER RELATIONS MANAGER</fullName>
+                <default>false</default>
+                <label>CUSTOMER RELATIONS MANAGER</label>
+            </value>
+            <value>
+                <fullName>CUSTOMER RETENTION DIRECTOR</fullName>
+                <default>false</default>
+                <label>CUSTOMER RETENTION DIRECTOR</label>
+            </value>
+            <value>
+                <fullName>DEALER BODY SHOP MANAGER</fullName>
+                <default>false</default>
+                <label>DEALER BODY SHOP MANAGER</label>
+            </value>
+            <value>
+                <fullName>DEALER PRINCIPAL</fullName>
+                <default>false</default>
+                <label>DEALER PRINCIPAL</label>
+            </value>
+            <value>
+                <fullName>FINANCIAL SERVICES MANAGER</fullName>
+                <default>false</default>
+                <label>FINANCIAL SERVICES MANAGER</label>
+            </value>
+            <value>
+                <fullName>FLEET MANAGER</fullName>
+                <default>false</default>
+                <label>FLEET MANAGER</label>
+            </value>
+            <value>
+                <fullName>GENERAL MANAGER</fullName>
+                <default>false</default>
+                <label>GENERAL MANAGER</label>
+            </value>
+            <value>
+                <fullName>GENERAL SALES MANAGER</fullName>
+                <default>false</default>
+                <label>GENERAL SALES MANAGER</label>
+            </value>
+            <value>
+                <fullName>INTERNET SALES</fullName>
+                <default>false</default>
+                <label>INTERNET SALES</label>
+            </value>
+            <value>
+                <fullName>LEASING MANAGER</fullName>
+                <default>false</default>
+                <label>LEASING MANAGER</label>
+            </value>
+            <value>
+                <fullName>OFFICE MANAGER</fullName>
+                <default>false</default>
+                <label>OFFICE MANAGER</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PARTS DIRECTOR</fullName>
+                <default>false</default>
+                <label>PARTS DIRECTOR</label>
+            </value>
+            <value>
+                <fullName>PARTS MANAGER</fullName>
+                <default>false</default>
+                <label>PARTS MANAGER</label>
+            </value>
+            <value>
+                <fullName>PRE-OWNED CAR MANAGER</fullName>
+                <default>false</default>
+                <label>PRE-OWNED CAR MANAGER</label>
+            </value>
+            <value>
+                <fullName>PRE-OWNED SALESPERSON</fullName>
+                <default>false</default>
+                <label>PRE-OWNED SALESPERSON</label>
+            </value>
+            <value>
+                <fullName>SALES BDC</fullName>
+                <default>false</default>
+                <label>SALES BDC</label>
+            </value>
+            <value>
+                <fullName>SALES CONSULTANT</fullName>
+                <default>false</default>
+                <label>SALES CONSULTANT</label>
+            </value>
+            <value>
+                <fullName>SALES CONSULTANT-PRGM ENROLLED</fullName>
+                <default>false</default>
+                <label>SALES CONSULTANT-PRGM ENROLLED</label>
+            </value>
+            <value>
+                <fullName>SALES MANAGER</fullName>
+                <default>false</default>
+                <label>SALES MANAGER</label>
+            </value>
+            <value>
+                <fullName>SALES MANAGER-PROGRAM ENROLLED</fullName>
+                <default>false</default>
+                <label>SALES MANAGER-PROGRAM ENROLLED</label>
+            </value>
+            <value>
+                <fullName>SALES OTHER</fullName>
+                <default>false</default>
+                <label>SALES OTHER</label>
+            </value>
+            <value>
+                <fullName>SALES PERSONNEL</fullName>
+                <default>false</default>
+                <label>SALES PERSONNEL</label>
+            </value>
+            <value>
+                <fullName>SERVICE BDC</fullName>
+                <default>false</default>
+                <label>SERVICE BDC</label>
+            </value>
+            <value>
+                <fullName>SERVICE DIRECTOR</fullName>
+                <default>false</default>
+                <label>SERVICE DIRECTOR</label>
+            </value>
+            <value>
+                <fullName>SERVICE DISPATCHER</fullName>
+                <default>false</default>
+                <label>SERVICE DISPATCHER</label>
+            </value>
+            <value>
+                <fullName>SERVICE MANAGER</fullName>
+                <default>false</default>
+                <label>SERVICE MANAGER</label>
+            </value>
+            <value>
+                <fullName>SHOP FOREMAN</fullName>
+                <default>false</default>
+                <label>SHOP FOREMAN</label>
+            </value>
+            <value>
+                <fullName>TRAC MANAGER</fullName>
+                <default>false</default>
+                <label>TRAC MANAGER</label>
+            </value>
+            <value>
+                <fullName>TRUCK CHAMPION</fullName>
+                <default>false</default>
+                <label>TRUCK CHAMPION</label>
+            </value>
+            <value>
+                <fullName>VEHICLE TRADE MANAGER</fullName>
+                <default>false</default>
+                <label>VEHICLE TRADE MANAGER</label>
+            </value>
+            <value>
+                <fullName>WARRANTY MANAGER</fullName>
+                <default>false</default>
+                <label>WARRANTY MANAGER</label>
+            </value>
+            <value>
+                <fullName>WARRANTY PERSONNEL</fullName>
+                <default>false</default>
+                <label>WARRANTY PERSONNEL</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ADMIN</controllingFieldValue>
+            <valueName>CONTROLLER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADMIN</controllingFieldValue>
+            <valueName>OFFICE MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BODY SHOP</controllingFieldValue>
+            <valueName>ASSISTANT COLLISION CENTER MGR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BODY SHOP</controllingFieldValue>
+            <valueName>COLLISION CTR OFFICE MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BODY SHOP</controllingFieldValue>
+            <valueName>DEALER BODY SHOP MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUST SERVICE</controllingFieldValue>
+            <valueName>CUSTOMER RELATIONS MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTHER</controllingFieldValue>
+            <valueName>OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTS</controllingFieldValue>
+            <valueName>ASSISTANT PARTS MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTS</controllingFieldValue>
+            <valueName>PARTS DIRECTOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTS</controllingFieldValue>
+            <valueName>PARTS MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>CREDIT MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>CUSTOMER RETENTION DIRECTOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>DEALER PRINCIPAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>FINANCIAL SERVICES MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>FLEET MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>GENERAL MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>GENERAL SALES MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>INTERNET SALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>LEASING MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>PRE-OWNED CAR MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>PRE-OWNED SALESPERSON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES BDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES CONSULTANT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES CONSULTANT-PRGM ENROLLED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES MANAGER-PROGRAM ENROLLED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>SALES PERSONNEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALES</controllingFieldValue>
+            <valueName>VEHICLE TRADE MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>ASSISTANT SERVICE MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>SERVICE BDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>SERVICE DIRECTOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>SERVICE DISPATCHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>SERVICE MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>SHOP FOREMAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>WARRANTY MANAGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SERVICE</controllingFieldValue>
+            <valueName>WARRANTY PERSONNEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TFS FINANCE</controllingFieldValue>
+            <valueName>TRAC MANAGER</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

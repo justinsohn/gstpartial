@@ -1,0 +1,134 @@
+<template>
+    <div class="card-boundary">
+    <lightning-card title={cardTitle} icon-name="standard:event">
+        <!-- Loading state -->
+        <template lwc:if={isLoading}>
+            <div class="slds-p-around_medium slds-is-relative" style="min-height: 100px;">
+                <lightning-spinner alternative-text="Loading visit data" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <!-- Error state -->
+        <template lwc:if={errorMessage}>
+            <div class="slds-p-around_medium">
+                <p class="slds-text-color_error">{errorMessage}</p>
+            </div>
+        </template>
+
+        <!-- No visit found (only shown when not loading and no error) -->
+        <template lwc:if={showNoVisitMessage}>
+            <div class="slds-p-around_medium">
+                <p class="no-visit-message">No related visits.</p>
+            </div>
+        </template>
+
+        <!-- Visit found — display tabbed layout -->
+        <template lwc:if={showVisitContent}>
+            <!-- Visit record link at the top of the card -->
+            <div class="slds-p-horizontal_medium slds-p-bottom_x-small visit-link-bar" slot="actions">
+                <a href={visitUrl} target="_blank" class="slds-text-link">View Visit Record</a>
+            </div>
+
+            <div class="tabset-container">
+                <lightning-tabset active-tab-value={activeTab} onactive={handleTabActive}>
+                    <template for:each={tabs} for:item="tab">
+                        <lightning-tab key={tab.tabValue} label={tab.title} value={tab.tabValue}>
+                            <template for:each={tab.sections} for:item="section">
+                                <div key={section.sectionKey} class="section-container">
+                                    <!-- Section header matching record page style -->
+                                    <div class="section-header">
+                                        <h3 class="section-header-text">{section.label}</h3>
+                                    </div>
+
+                                    <!-- Section content: columns and fields -->
+                                    <div class="section-content">
+                                        <template lwc:if={section.isHorizontal}>
+                                            <!-- Horizontal layout: side-by-side columns -->
+                                            <div class="slds-grid slds-gutters_direct slds-wrap">
+                                                <template for:each={section.columns} for:item="column">
+                                                    <div key={column.columnKey} class={column.columnClass}>
+                                                        <div class="column-wrapper">
+                                                            <template for:each={column.fields} for:item="field">
+                                                                <div key={field.fieldKey} class="field-row">
+                                                                    <span class="field-label">{field.label}</span>
+                                                                    <div class="field-value-container">
+                                                                        <template lwc:if={field.isBoolean}>
+                                                                            <lightning-icon
+                                                                                icon-name={field.checkboxIconName}
+                                                                                size="x-small"
+                                                                                variant={field.checkboxIconVariant}
+                                                                                alternative-text={field.label}
+                                                                                class="checkbox-icon"
+                                                                            ></lightning-icon>
+                                                                        </template>
+                                                                        <template lwc:if={field.isDate}>
+                                                                            <span class="field-value">
+                                                                                <lightning-formatted-date-time
+                                                                                    value={field.value}
+                                                                                ></lightning-formatted-date-time>
+                                                                            </span>
+                                                                        </template>
+                                                                        <template lwc:if={field.isOther}>
+                                                                            <span class="field-value">{field.displayValue}</span>
+                                                                        </template>
+                                                                    </div>
+                                                                </div>
+                                                            </template>
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </template>
+
+                                        <template lwc:elseif={section.isVertical}>
+                                            <!-- Vertical layout: single column, full width -->
+                                            <template for:each={section.columns} for:item="column">
+                                                <div key={column.columnKey}>
+                                                    <div class="column-wrapper">
+                                                        <template for:each={column.fields} for:item="field">
+                                                            <div key={field.fieldKey} class="field-row">
+                                                                <span class="field-label">{field.label}</span>
+                                                                <div class="field-value-container">
+                                                                    <template lwc:if={field.isLongText}>
+                                                                        <lightning-formatted-rich-text
+                                                                            value={field.displayValue}
+                                                                            disable-linkify
+                                                                        ></lightning-formatted-rich-text>
+                                                                    </template>
+                                                                    <template lwc:if={field.isBoolean}>
+                                                                        <lightning-icon
+                                                                            icon-name={field.checkboxIconName}
+                                                                            size="x-small"
+                                                                            variant={field.checkboxIconVariant}
+                                                                            alternative-text={field.label}
+                                                                            class="checkbox-icon"
+                                                                        ></lightning-icon>
+                                                                    </template>
+                                                                    <template lwc:if={field.isDate}>
+                                                                        <span class="field-value">
+                                                                            <lightning-formatted-date-time
+                                                                                value={field.value}
+                                                                            ></lightning-formatted-date-time>
+                                                                        </span>
+                                                                    </template>
+                                                                    <template lwc:if={field.isOther}>
+                                                                        <span class="field-value">{field.displayValue}</span>
+                                                                    </template>
+                                                                </div>
+                                                            </div>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </template>
+                                    </div>
+                                </div>
+                            </template>
+                        </lightning-tab>
+                    </template>
+                </lightning-tabset>
+            </div>
+        </template>
+    </lightning-card>
+    </div>
+</template>

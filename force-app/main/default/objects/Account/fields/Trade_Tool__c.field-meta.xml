@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade_Tool__c</fullName>
+    <label>Trade Tool</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KBB ICO</fullName>
+                <default>false</default>
+                <label>KBB ICO</label>
+            </value>
+            <value>
+                <fullName>KBB InfoDriver</fullName>
+                <default>false</default>
+                <label>KBB InfoDriver</label>
+            </value>
+            <value>
+                <fullName>TradePending</fullName>
+                <default>false</default>
+                <label>TradePending</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

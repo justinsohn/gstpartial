@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SmartPath Status --></label>
+    <name>SmartPath_Status__c</name>
+    <picklistValues>
+        <masterLabel>Done / Good</masterLabel>
+        <translation><!-- Done / Good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needs work</masterLabel>
+        <translation><!-- Needs work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Progress</masterLabel>
+        <translation><!-- No Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working on it</masterLabel>
+        <translation><!-- Working on it --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

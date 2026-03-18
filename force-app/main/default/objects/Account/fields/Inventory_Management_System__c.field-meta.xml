@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_Management_System__c</fullName>
+    <label>Inventory Management System</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACV Max</fullName>
+                <default>false</default>
+                <label>ACV Max</label>
+            </value>
+            <value>
+                <fullName>AutoMate</fullName>
+                <default>false</default>
+                <label>AutoMate</label>
+            </value>
+            <value>
+                <fullName>AutoVision</fullName>
+                <default>false</default>
+                <label>AutoVision</label>
+            </value>
+            <value>
+                <fullName>Dealer.com</fullName>
+                <default>false</default>
+                <label>Dealer.com</label>
+            </value>
+            <value>
+                <fullName>Dealers Link</fullName>
+                <default>false</default>
+                <label>Dealers Link</label>
+            </value>
+            <value>
+                <fullName>Dealer Specialties</fullName>
+                <default>false</default>
+                <label>Dealer Specialties</label>
+            </value>
+            <value>
+                <fullName>DMS</fullName>
+                <default>false</default>
+                <label>DMS</label>
+            </value>
+            <value>
+                <fullName>eLeads</fullName>
+                <default>false</default>
+                <label>eLeads</label>
+            </value>
+            <value>
+                <fullName>Fastbook</fullName>
+                <default>false</default>
+                <label>Fastbook</label>
+            </value>
+            <value>
+                <fullName>First Look Max</fullName>
+                <default>false</default>
+                <label>First Look Max</label>
+            </value>
+            <value>
+                <fullName>HomeNet</fullName>
+                <default>false</default>
+                <label>HomeNet</label>
+            </value>
+            <value>
+                <fullName>Max Digital</fullName>
+                <default>false</default>
+                <label>Max Digital</label>
+            </value>
+            <value>
+                <fullName>Moran Group</fullName>
+                <default>false</default>
+                <label>Moran Group</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>vAuto</fullName>
+                <default>false</default>
+                <label>vAuto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

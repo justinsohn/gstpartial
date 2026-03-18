@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>Tableau_PDF_Burst_Integration</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>Tableau_PDF_Burst_Integration_oauth</label>
+    <oauthLink>00DWD00000BzkpB:888WD000000BnGj</oauthLink>
+</ExtlClntAppOauthSettings>

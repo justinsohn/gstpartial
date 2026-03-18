@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SmartPath</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SmartPaths</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- SmartPath F&amp;I --></label>
+        <name>SmartPath_F_I</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SmartPath Sales --></label>
+        <name>SmartPath_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SmartPath Service --></label>
+        <name>SmartPath_Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

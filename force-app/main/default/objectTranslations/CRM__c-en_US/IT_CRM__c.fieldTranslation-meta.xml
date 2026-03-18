@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CRM --></label>
+    <name>IT_CRM__c</name>
+    <picklistValues>
+        <masterLabel>AVV</masterLabel>
+        <translation><!-- AVV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CarResearch</masterLabel>
+        <translation><!-- CarResearch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DealerSocket</masterLabel>
+        <translation><!-- DealerSocket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DriveCentric</masterLabel>
+        <translation><!-- DriveCentric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rey Rey Contact Manager</masterLabel>
+        <translation><!-- Rey Rey Contact Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TDDSLLM</masterLabel>
+        <translation><!-- TDDSLLM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tekion</masterLabel>
+        <translation><!-- Tekion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VinSolutions</masterLabel>
+        <translation><!-- VinSolutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eLeads</masterLabel>
+        <translation><!-- eLeads --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- DMS --></label>
+    <name>IT_DMS__c</name>
+    <picklistValues>
+        <masterLabel>AutoMate</masterLabel>
+        <translation><!-- AutoMate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AutoSoft</masterLabel>
+        <translation><!-- AutoSoft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDK</masterLabel>
+        <translation><!-- CDK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DealerTrack</masterLabel>
+        <translation><!-- DealerTrack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PBS Systems</masterLabel>
+        <translation><!-- PBS Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R&amp;R</masterLabel>
+        <translation><!-- R&amp;R --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tekion</masterLabel>
+        <translation><!-- Tekion --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

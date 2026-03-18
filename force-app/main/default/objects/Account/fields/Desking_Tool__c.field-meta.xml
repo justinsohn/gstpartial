@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Desking_Tool__c</fullName>
+    <label>Desking Tool</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Affinitiv</fullName>
+                <default>false</default>
+                <label>Affinitiv</label>
+            </value>
+            <value>
+                <fullName>AutoMate</fullName>
+                <default>false</default>
+                <label>AutoMate</label>
+            </value>
+            <value>
+                <fullName>AutoNation</fullName>
+                <default>false</default>
+                <label>AutoNation</label>
+            </value>
+            <value>
+                <fullName>CarResearch</fullName>
+                <default>false</default>
+                <label>CarResearch</label>
+            </value>
+            <value>
+                <fullName>CDK</fullName>
+                <default>false</default>
+                <label>CDK</label>
+            </value>
+            <value>
+                <fullName>DealerSocket</fullName>
+                <default>false</default>
+                <label>DealerSocket</label>
+            </value>
+            <value>
+                <fullName>Dealertrack</fullName>
+                <default>false</default>
+                <label>Dealertrack</label>
+            </value>
+            <value>
+                <fullName>DriveCentric</fullName>
+                <default>false</default>
+                <label>DriveCentric</label>
+            </value>
+            <value>
+                <fullName>eLeads</fullName>
+                <default>false</default>
+                <label>eLeads</label>
+            </value>
+            <value>
+                <fullName>Era Ignite</fullName>
+                <default>false</default>
+                <label>Era Ignite</label>
+            </value>
+            <value>
+                <fullName>First Pencil</fullName>
+                <default>false</default>
+                <label>First Pencil</label>
+            </value>
+            <value>
+                <fullName>Mac Haik Proprietary</fullName>
+                <default>false</default>
+                <label>Mac Haik Proprietary</label>
+            </value>
+            <value>
+                <fullName>Penske</fullName>
+                <default>false</default>
+                <label>Penske</label>
+            </value>
+            <value>
+                <fullName>Reynolds Power</fullName>
+                <default>false</default>
+                <label>Reynolds Power</label>
+            </value>
+            <value>
+                <fullName>Tekion</fullName>
+                <default>false</default>
+                <label>Tekion</label>
+            </value>
+            <value>
+                <fullName>VinSolutions</fullName>
+                <default>false</default>
+                <label>VinSolutions</label>
+            </value>
+            <value>
+                <fullName>XRM</fullName>
+                <default>false</default>
+                <label>XRM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

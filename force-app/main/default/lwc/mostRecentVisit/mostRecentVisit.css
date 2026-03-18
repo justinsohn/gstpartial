@@ -1,0 +1,75 @@
+/* Card boundary — wraps the entire lightning-card like slds-card_boundary */
+.card-boundary {
+    border: 1px solid #c9c9c9;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 1.05rem;
+}
+
+/* Section header — matches record page section title (bottom border, no background) */
+.section-header {
+    border-bottom: 1px solid #dddbda;
+    padding: 0.75rem 0.75rem 0.5rem;
+}
+
+.section-header-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #080707;
+    margin: 0;
+}
+
+/* Section content */
+.section-content {
+    padding: 0;
+}
+
+/* Column wrapper — matches slds-p-horizontal_small slds-p-vertical_x-small */
+.column-wrapper {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Field row — matches slds-form-element stacked layout */
+.field-row {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.field-row:last-child {
+    border-bottom: none;
+}
+
+/* Field labels — matches slds-form-element__label (not bold, muted color) */
+.field-label {
+    color: #3e3e3c;
+    font-size: 0.75rem;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 0.125rem;
+}
+
+/* Field value text — matches slds-form-element__static */
+.field-value {
+    font-size: 0.8125rem;
+    color: #080707;
+    word-wrap: break-word;
+    padding-bottom: 0.25rem;
+}
+
+/* Checkbox icon alignment */
+.checkbox-icon {
+    vertical-align: middle;
+    padding-bottom: 0.25rem;
+}
+
+/* No visit message styling */
+.no-visit-message {
+    color: #706e6b;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Visit link bar at the top of the card */
+.visit-link-bar {
+    font-size: 0.8125rem;
+}

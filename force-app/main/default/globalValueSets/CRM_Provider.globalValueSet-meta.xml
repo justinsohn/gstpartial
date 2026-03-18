@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AutoMate</fullName>
+        <default>false</default>
+        <label>AutoMate</label>
+    </customValue>
+    <customValue>
+        <fullName>AutoSoft</fullName>
+        <default>false</default>
+        <label>AutoSoft</label>
+    </customValue>
+    <customValue>
+        <fullName>CDK</fullName>
+        <default>false</default>
+        <label>CDK</label>
+    </customValue>
+    <customValue>
+        <fullName>DealerTrack</fullName>
+        <default>false</default>
+        <label>DealerTrack</label>
+    </customValue>
+    <customValue>
+        <fullName>PBS Systems</fullName>
+        <default>false</default>
+        <label>PBS Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>R&amp;R</fullName>
+        <default>false</default>
+        <label>R&amp;R</label>
+    </customValue>
+    <customValue>
+        <fullName>Tekion</fullName>
+        <default>false</default>
+        <label>Tekion</label>
+    </customValue>
+    <description>Dealership CRM Provider</description>
+    <masterLabel>CRM Provider</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Retail_Tool__c</fullName>
+    <label>Digital Retail Tool</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AutoFi</fullName>
+                <default>false</default>
+                <label>AutoFi</label>
+            </value>
+            <value>
+                <fullName>CarNow</fullName>
+                <default>false</default>
+                <label>CarNow</label>
+            </value>
+            <value>
+                <fullName>Darwin Automotive</fullName>
+                <default>false</default>
+                <label>Darwin Automotive</label>
+            </value>
+            <value>
+                <fullName>Dealer.com</fullName>
+                <default>false</default>
+                <label>Dealer.com</label>
+            </value>
+            <value>
+                <fullName>Dealer eProcess</fullName>
+                <default>false</default>
+                <label>Dealer eProcess</label>
+            </value>
+            <value>
+                <fullName>Dealer Inspire</fullName>
+                <default>false</default>
+                <label>Dealer Inspire</label>
+            </value>
+            <value>
+                <fullName>DealerOn</fullName>
+                <default>false</default>
+                <label>DealerOn</label>
+            </value>
+            <value>
+                <fullName>Gubagoo</fullName>
+                <default>false</default>
+                <label>Gubagoo</label>
+            </value>
+            <value>
+                <fullName>Roadster</fullName>
+                <default>false</default>
+                <label>Roadster</label>
+            </value>
+            <value>
+                <fullName>SmartPath</fullName>
+                <default>false</default>
+                <label>SmartPath</label>
+            </value>
+            <value>
+                <fullName>Upstart</fullName>
+                <default>false</default>
+                <label>Upstart</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
